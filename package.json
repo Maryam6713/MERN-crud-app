@@ -1,22 +1,27 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "colors": "^1.4.0",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoos": "^0.0.1-security",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9",
-    "postman": "^0.2.0"
+    "postman": "^0.2.0",
+    "tailwind": "^4.0.0"
   }
 }
