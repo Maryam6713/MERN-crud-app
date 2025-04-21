@@ -6,7 +6,10 @@ const userschema = mongoose.schema({
     name:"string",
     age:"number",
     email:"string",
-    password:"string"
+    password:"string",
+    post :[{
+        type: mongoose.Schema.Type.ObjectId , ref : "post"
+    }]
 })
 
 module.exports = mongoose.model('user' , userschema)
